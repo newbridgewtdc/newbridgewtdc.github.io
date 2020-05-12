@@ -47,7 +47,7 @@
 
 /* reaction to hover on p in mega-menu*/
 .mega-menu p:hover, .single-menu p:hover {
-	background-color: #fabf34;
+	background-color: #7724b3; /*#fabf34*/
 	line-height: 40px;
 }
 
