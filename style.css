@@ -1,0 +1,104 @@
+/* Admissions dropdown*/
+.single-menu {
+	width: 200px;
+	background-color: #373741;
+	padding: 10px 10px 10px 10px;
+}
+
+/*dropdown transitions*/
+.dropdown .dropdown-menu {
+    display: block;
+    margin-top: 0;
+    transition: all 0.4s;
+	max-height: 0;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+}
+/* hover dropdown*/
+.dropdown:hover .dropdown-menu {
+    max-height: 3600px;
+    opacity: 1;
+}
+ 
+/* setting out the structure for the mega menu*/
+.mega-menu {
+	width: 800px;
+	overflow-y: visible;
+	padding: 10px 10px 10px 10px;
+	background-color: #373741;
+}
+
+/* links within the mega menu*/
+.mega-menu a, .single-menu a {
+	text-decoration: none;
+	color: #fff;
+}
+/* p containers in mega-menu*/
+.mega-menu p, .single-menu p {
+	color: #fff;
+	padding: 10px;
+	line-height: 40px;
+	width: 100%;
+	border: 1px solid lightgray;
+	border-radius: 3px;
+	box-shadow: 0 1px 1px 1px #d4d4d4;
+}
+
+/* reaction to hover on p in mega-menu*/
+.mega-menu p:hover, .single-menu p:hover {
+	background-color: #fabf34;
+	line-height: 40px;
+}
+
+/* change the color of the text on hover*/
+.mega-menu p:hover a , .single-menu p:hover a {
+	color: #fff;
+}
+
+/* subheadings*/
+.mega-menu .sub-menu-heading {
+	padding: 10px;
+	color: #d6d6d6;
+}
+
+/* scaling for sm devices*/
+@media(max-width: 1020px){
+	.mega-menu .sub-menu-heading {
+		padding: 15px;
+	}
+	
+	.mega-menu , .mega-menu p, .single-menu, .single-menu p  {
+		width: 100%;
+	}
+}
+
+/* scaling for xs devices*/
+@media(max-width: 500px){
+	.mega-menu .sub-menu-heading {
+		padding: 20px;
+	}
+	 .mega-menu , .mega-menu p, .single-menu, .single-menu p {
+		width: 100%;
+	}
+}
+
+/* indenting the img-scroll row*/
+.img-scroll {
+	margin: 0 auto;
+	overflow: visible;
+}
+ /* declaring images as blocks so the can be centered */
+.img-center {
+    display: block;
+    margin: 0 auto;
+	width: 100%;
+}
+/* items within the row*/
+.img-scroll-item {
+	padding: 20px;
+	overflow: hidden;
+	width: 100%;
+}
+
+
