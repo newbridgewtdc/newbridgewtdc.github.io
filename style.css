@@ -89,6 +89,18 @@
 	}
 }
 
+/* Scalling of navbar */
+@media(max-width: 1280px){
+	.navbar-nav {
+		width: 62.5%;
+	}
+	
+}
+
+
+
+
+
 /* indenting the img-scroll row*/
 .img-scroll {
 	margin: 0 auto;
