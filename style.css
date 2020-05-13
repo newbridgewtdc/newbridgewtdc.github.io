@@ -1,7 +1,7 @@
 /* Admissions dropdown*/
 .single-menu {
 	width: 200px;
-	background-color: #373741;
+	background-color: #343a40;
 	padding: 10px 10px 10px 10px;
 }
 
@@ -26,7 +26,7 @@
 	width: 800px;
 	overflow-y: visible;
 	padding: 10px 10px 10px 10px;
-	background-color: #373741;
+	background-color: #343a40;
 }
 
 /* links within the mega menu*/
@@ -47,7 +47,7 @@
 
 /* reaction to hover on p in mega-menu*/
 .mega-menu p:hover, .single-menu p:hover {
-	background-color: #661f99; /*#fabf34*/
+	background-color: #bb3073; /*#fabf34*/
 	line-height: 40px;
 }
 
@@ -117,4 +117,12 @@
 	min-height: 500px;
 }
 
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
 
+.bg-4 {
+  background-color: #343a40;
+  color: #ffffff;
+}
