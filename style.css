@@ -126,8 +126,12 @@ nav {
     padding-bottom: 70px;
   }
 
+footer {
+	margin-bottom: 0;
+}
+
 .bg-4 {
-  background-color: #343a40;
+  background-color: #202020;
   color: #ffffff;
 }
 
