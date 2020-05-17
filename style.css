@@ -5,7 +5,7 @@ nav {
 /* Admissions dropdown*/
 .single-menu {
 	width: 200px;
-	background-color: #343a40;
+	background-color: #57503e;
 	padding: 10px 10px 10px 10px;
 }
 
@@ -30,7 +30,7 @@ nav {
 	width: 800px;
 	overflow-y: visible;
 	padding: 10px 10px 10px 10px;
-	background-color: #343a40;
+	background-color: #57503e;
 }
 
 /* links within the mega menu*/
@@ -132,7 +132,7 @@ footer {
 }
 
 .bg-4 {
-  background-color: #202020;
+  background-color: #57503e;
   color: #ffffff;
 }
 
