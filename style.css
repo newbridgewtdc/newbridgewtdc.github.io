@@ -127,7 +127,8 @@ nav {
   }
 
 footer {
-	margin-bottom: 0;
+	bottom: 0;
+	position: static;
 }
 
 .bg-4 {
