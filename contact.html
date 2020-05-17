@@ -22,7 +22,7 @@
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav mr-auto">
 				<li class="nav-item text-uppercase"><a class="nav-link" href="index.html">Home</a></li>
-				<li class="nav-item active text-uppercase"><a class="nav-link" href="#">News <span class="sr-only">(current)</span></a></li>
+				<li class="nav-item text-uppercase"><a class="nav-link" href="news.html">News</a></li>
 				<li class="nav-item dropdown text-uppercase">
 					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Courses</a>
 					<div class="dropdown-menu single-menu" aria-labelledby="navbarDropdown"> <!--mega-menu-->
@@ -92,7 +92,7 @@
 					</div>
 				</li>	
 				<li class="nav-item text-uppercase"><a class="nav-link" href="#">LINKS</a></li>
-				<li class="nav-item text-uppercase"><a class="nav-link" href="contact.html">CONTACT</a></li>
+				<li class="nav-item active text-uppercase"><a class="nav-link" href="contact.html">CONTACT <span class="sr-only">(current)</span></a></li>
 			</ul>
 			<form class="form-inline my-2 my-lg-0">
 				<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -102,17 +102,43 @@
 	</nav>
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-lg-3 col-sm-2"></div>
-			<div class="col-lg-6 col-sm-8 text-uppercase">
-				<h1>Our Latest News</h1>
+			<div class="col-lg-1 col-sm-1"></div>
+			<div class="col-lg-10 col-sm-10 text-uppercase">
+				<h1>Find us Here</h1>
 			</div>
+			<div class="col-lg-1 col-sm-1"></div>
 		</div>
 		<br>
 		<div class="row">
-			<div class="col-lg-3 col-sm-2"></div>
-			<div class="center-block col-lg-6 col-sm-8">
-				<a class="twitter-timeline" href="https://twitter.com/NewbridgeYtdc?ref_src=twsrc%5Etfw">Tweets by NewbridgeYtdc</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+			<div class="col-lg-1 col-sm-1"></div>
+			<div class="col-lg-4 col-sm-10">
+				<br>
+				<br>
+				<h3><strong>Address:</strong> Cill Dara Industrial Estate, Unit DE, Newbridge, Co. Kildare, W12 R244</h3>
+				<h3><strong>Phone:</strong> (045) 432 372</h3>
+				<br>
+				<br>
 			</div>
+			<div id="map" class="col-lg-6 col-sm-12"></div>
+			<script>
+					// Initialize and add the map
+					function initMap() {
+					// The location of YTDC 53.1740672,-6.7997136,15
+					var ytdv = {lat: 53.1740672, lng: -6.7997136};
+					// The map, centered at YTDC
+					var map = new google.maps.Map(
+					document.getElementById('map'), {zoom: 14, center: ytdv});
+					// The marker, positioned at YTDC
+					var marker = new google.maps.Marker({position: ytdv, map: map});
+					}
+			</script>
+					`<!--Load the API from the specified URL
+					* The async attribute allows the browser to render the page while the API loads
+					* The key parameter will contain your own API key (which is not needed for this tutorial)
+					* The callback parameter executes the initMap() function
+					-->
+			<script async defer	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6V--JczP7bCcRyrEQQT127e4qK2Yc-pQ&callback=initMap"></script>
+			<div class="col-lg-1"></div>
 		</div>
 	</div>
 	<footer class="container-fluid bg-4 text-center">

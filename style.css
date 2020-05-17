@@ -130,3 +130,15 @@ nav {
   background-color: #343a40;
   color: #ffffff;
 }
+
+.btn-outline-warning:hover {
+	color: #bb3073;
+}
+ /* Set the size of the div element that contains the map */
+ #map {
+    height: 600px;  /* The height is 400 pixels */
+    width: 100%;
+	margin: auto;
+	padding: 0;
+	margin: 0;
+}
