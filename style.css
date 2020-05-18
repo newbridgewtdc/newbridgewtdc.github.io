@@ -148,14 +148,14 @@ footer {
 	margin: 0;
 }
 
-.embeded-container {
+.iframe-container {
 	overflow: hidden;
 	/* Calculated from the aspect ration of the content (in case of 16:9 it is 9/16= 0.5625) */
 	padding-top: 56.25%;
 	position: relative;
 }
    
-.embeded-container embed {
+.iframe-container iframe {
 	border: 0;
 	height: 100%;
 	left: 0;
