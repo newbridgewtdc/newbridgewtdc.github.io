@@ -166,3 +166,18 @@ iframe {
 	padding: 0;
 	border: none;
 }
+
+.material-icons { 
+	position: absolute;
+	right: 52px;
+	z-index: 1;
+	margin-top: 12px;
+	padding: 4px;
+	color: #fff;
+	background-color: #000;
+	opacity: 75%;
+}
+
+.material-icons:hover {
+	background-color: #444444;
+}
