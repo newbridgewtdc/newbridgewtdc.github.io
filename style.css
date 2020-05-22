@@ -126,11 +126,6 @@ nav {
 
 
 
-  /*positioning footer*/
-footer {
-	bottom: 0;
-	position: static;
-}
 
 /* changing color of the footer*/
 .bg-4 {
@@ -176,4 +171,17 @@ iframe {
 
 .material-icons:hover {
 	background-color: #444444;
+}
+
+.gray {
+	background-color: #444444;
+}
+
+footer {
+	color: #fff;
+}
+
+
+.padding {
+	padding: 30px;
 }
