@@ -124,11 +124,7 @@ nav {
 	min-height: 500px;
 }
 
-/* Making the panel for containers such as the footer*/
-.container-fluid {
-    padding-top: 70px;
-    padding-bottom: 70px;
-  }
+
 
   /*positioning footer*/
 footer {
