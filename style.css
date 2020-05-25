@@ -100,32 +100,6 @@ nav {
 		width: 100%;
 	}
 }
-/* indenting the img-scroll row*/
-.img-scroll {
-	margin: 0 auto;
-	overflow: visible;
-}
- /* declaring images as blocks so the can be centered */
-.img-center {
-    display: block;
-    margin: 0 auto;
-	width: 100%;
-}
-/* items within the row*/
-.img-scroll-item {
-	padding: 20px;
-	overflow: hidden;
-	width: 100%;
-}
-
-/* Image settings*/
-.img-fluid {
-	max-height: 500px;
-	min-height: 500px;
-}
-
-
-
 
 /* changing color of the footer*/
 .bg-4 {
@@ -196,4 +170,19 @@ footer {
 
 .footer-socials, .footer-contacts{
 padding: 10px 5% 30px 5%;
+}
+
+.no-margins {
+	margin: 0px;
+}
+
+.no-paddings {
+	padding: 0px;
+}
+.arrows{
+	opacity: 80%;
+}
+
+.arrows:hover {
+	color: #bb3073;
 }
