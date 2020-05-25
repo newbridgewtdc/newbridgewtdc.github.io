@@ -201,3 +201,40 @@ padding: 10px 5% 30px 5%;
 .arrows:hover {
 	color: #bb3073;
 }
+ 
+.card-header {
+	padding: 0;
+	margin: 0;
+}
+
+.card-body {
+	padding: 30px;
+	min-height: 200px;
+}
+
+.btn-light {
+	text-align: justify;
+	padding: 30px;
+	width: 100%;
+	background-color: transparent;
+	border-color: transparent;
+	color: #fff;
+}
+
+.f67b14 {
+	background-color: #f67b14;
+}
+
+.f6b314 {
+	background-color: #f6b314;
+}
+
+.bg-830f34 {
+	background-color: #830f34;
+}
+.bb3073 {
+	background-color: #bb3073;
+}
+.f67b14 {
+	background-color: #f67b14;
+}
