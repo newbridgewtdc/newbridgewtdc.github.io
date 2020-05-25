@@ -98,7 +98,7 @@ nav {
 	.banner {
 		display: none;
 		width: 0;
-		height: 0;
+		height: 1px;
 	}
 
 	.banner1, .banner2 {
