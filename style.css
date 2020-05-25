@@ -1,3 +1,7 @@
+.banner1, .banner2 {
+	display: none;
+}
+
 
 /* Setting navbar color */
 nav {
@@ -91,6 +95,14 @@ nav {
 }
 /* scaling for xs devices*/
 @media(max-width: 500px){
+	.banner {
+		display: none;
+	}
+
+	.banner1, .banner2 {
+		display: block;
+	}
+
 	.mega-menu .sub-menu-heading {
 		padding: 10px 0 10px 0;
 		width: 100%;
