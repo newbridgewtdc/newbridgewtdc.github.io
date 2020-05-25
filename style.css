@@ -185,3 +185,15 @@ footer {
 .padding {
 	padding: 30px;
 }
+
+.social {
+	padding: 8px;
+	color: #fff;
+}
+ .social:hover {
+	 color: #d73e88;
+ }
+
+.footer-socials, .footer-contacts{
+padding: 10px 5% 30px 5%;
+}
