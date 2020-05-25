@@ -97,6 +97,8 @@ nav {
 @media(max-width: 500px){
 	.banner {
 		display: none;
+		width: 0;
+		height: 0;
 	}
 
 	.banner1, .banner2 {
