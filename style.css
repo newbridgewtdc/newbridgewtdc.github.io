@@ -1,7 +1,9 @@
 .banner1, .banner2 {
 	display: none;
 }
-
+.card-columns {
+	column-count: 4;
+}
 
 /* Setting navbar color */
 nav {
@@ -92,6 +94,9 @@ nav {
 	.mega-menu , .mega-menu p, .single-menu, .single-menu p, .navbar-nav {
 		width: 100%;
 	}
+	.card-columns {
+		column-count: 3;
+	}
 }
 /* scaling for xs devices*/
 @media(max-width: 500px){
@@ -112,6 +117,9 @@ nav {
 	}
 	 .mega-menu , .mega-menu p, .single-menu, .single-menu p, .navbar-nav {
 		width: 100%;
+	}
+	.card-columns {
+		column-count: 2;
 	}
 }
 
@@ -207,7 +215,7 @@ padding: 10px 5% 30px 5%;
 	margin: 0;
 }
 
-.card-body {
+.collapse > .card-body {
 	padding: 30px;
 	min-height: 200px;
 }
@@ -260,3 +268,4 @@ padding: 10px 5% 30px 5%;
 .card {
 	margin-bottom: 50px;
 }
+
