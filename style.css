@@ -76,13 +76,7 @@ nav {
 	height: 100px;
 }
 
-/* Scalling of navbar */
-@media(max-width: 1280px){
-	.navbar-nav {
-		width: 62.5%;
-	}
-	
-}
+
 /* scaling for sm devices*/
 @media(max-width: 1020px){
 	.mega-menu .sub-menu-heading {
