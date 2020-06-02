@@ -121,6 +121,25 @@ nav {
 	.card-columns {
 		column-count: 2;
 	}
+	
+}
+
+
+@media(max-width: 700px){
+	.justifyable-h5 {
+		display: flex;
+		justify-content: center;
+		margin-right: 128px;
+		padding-left: 0px;
+	}
+	.justifyable-icons {
+		display: flex;
+		justify-content: center;
+		margin-right: 50px;
+	}
+}
+.justifyable-h5 {
+	padding-left: 3px;
 }
 
 /* changing color of the footer*/
