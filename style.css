@@ -7,7 +7,7 @@
 
 /* Setting navbar color */
 nav {
-	background-color: /* #bb3073;*/#FF0054;
+	background-color: #bb3073;
 }
 
 /* Admissions dropdown*/
@@ -59,7 +59,7 @@ nav {
 
 /* reaction to hover on p in mega-menu*/
 .mega-menu p:hover, .single-menu p:hover {
-	background-color: /* #bb3073;*/#FF0054;
+	background-color: #bb3073; /*#fabf34*/
 	line-height: 40px;
 }
 
@@ -144,7 +144,7 @@ nav {
 
 /* changing color of hover to be pink*/
 .btn-outline-warning:hover {
-	color: /* #bb3073;*/#FF0054;
+	color: #bb3073;
 }
  /* Set the size of the div element that contains the map */
  #map {
@@ -188,7 +188,7 @@ iframe {
 
 footer {
 	color: #fff;
-	border-top: 2px solid /* #bb3073;*/#FF0054;
+	border-top: 2px solid #bb3073;
 }
 
 
@@ -201,7 +201,7 @@ footer {
 	color: #fff;
 }
  .social:hover {
-	 color:/* #bb3073;*/#FF0054;
+	 color: #d73e88;
  }
 
 .footer-socials, .footer-contacts{
@@ -220,7 +220,7 @@ padding: 10px 5% 30px 5%;
 }
 
 .arrows:hover {
-	color: /* #bb3073;*/#FF0054;
+	color: #bb3073;
 }
  
 .card-header {
@@ -257,7 +257,7 @@ padding: 10px 5% 30px 5%;
 	color: #fff;
 }
 .bb3073 {
-	background-color: /* #bb3073;*/#FF0054;
+	background-color: #bb3073;
 	text-align: justify;
 	padding: 30px;
 	width: 100%;
