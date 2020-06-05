@@ -8,6 +8,7 @@
 /* Setting navbar color */
 nav {
 	background-color: /* #bb3073;*/#FF0054;
+}
 
 /* Admissions dropdown*/
 .single-menu {
@@ -187,7 +188,7 @@ iframe {
 
 footer {
 	color: #fff;
-	border-top: 2px solid/* #bb3073;*/ #FF0054;
+	border-top: 2px solid /* #bb3073;*/#FF0054;
 }
 
 
@@ -200,7 +201,7 @@ footer {
 	color: #fff;
 }
  .social:hover {
-	 color: /* #bb3073;*/#FF0054;
+	 color:/* #bb3073;*/#FF0054;
  }
 
 .footer-socials, .footer-contacts{
@@ -256,7 +257,7 @@ padding: 10px 5% 30px 5%;
 	color: #fff;
 }
 .bb3073 {
-	background-color:/* #bb3073;*/#FF0054;
+	background-color: /* #bb3073;*/#FF0054;
 	text-align: justify;
 	padding: 30px;
 	width: 100%;
