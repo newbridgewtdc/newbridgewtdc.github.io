@@ -52,9 +52,8 @@ nav {
 	padding: 10px;
 	line-height: 40px;
 	width: 100%;
-	border: 1px solid lightgray;
+	border: 1px solid transparent;
 	border-radius: 3px;
-	box-shadow: 0 1px 1px 1px #d4d4d4;
 }
 
 /* reaction to hover on p in mega-menu*/
