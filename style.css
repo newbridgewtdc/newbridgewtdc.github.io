@@ -86,7 +86,7 @@ nav {
 @media(max-width: 1020px){
 
 	.nav-item {
-		font-size: 3vw;
+		font-size: 12pt;
 		padding-left: 10px;
 	
 	}
