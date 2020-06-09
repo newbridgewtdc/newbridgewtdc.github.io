@@ -14,7 +14,7 @@ nav {
 .single-menu {
 	width: 400px;
 	background-color: #474747;
-	padding: 10px 10px 10px 10px;
+	padding: 10px 10px 0px 10px;
 }
 
 /*dropdown transitions*/
@@ -53,7 +53,7 @@ nav {
 	line-height: 40px;
 	width: 100%;
 	border: 1px solid transparent;
-	border-radius: 3px;
+	border-radius: 4px;
 }
 
 /* reaction to hover on p in mega-menu*/
