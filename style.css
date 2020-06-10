@@ -51,6 +51,7 @@ nav {
 .mega-menu a, .single-menu a {
 	text-decoration: none;
 	color: #fff;
+	font-size: 1vw;
 }
 /* p containers in mega-menu*/
 .mega-menu p, .single-menu p {
@@ -89,6 +90,9 @@ nav {
 		font-size: 12pt;
 		padding-left: 10px;
 	
+	}
+	.single-menu a {
+		font-size: 12pt;
 	}
 	.mega-menu .sub-menu-heading {
 		padding: 10px 0 10px 0;
