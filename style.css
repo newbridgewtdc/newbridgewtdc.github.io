@@ -11,8 +11,8 @@ nav {
 }
 
 .nav-item {
-	font-size: 1.2vw;
-	padding-left: 2rem;
+	font-size: 1vw;
+	padding-left: 2.2rem;
 
 }
 
@@ -201,6 +201,7 @@ footer {
 	color: #fff;
 	border-top: 2px solid #bb3073;
 }
+
 
 
 .padding {
