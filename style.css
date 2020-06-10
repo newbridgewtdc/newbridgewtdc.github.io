@@ -202,7 +202,9 @@ footer {
 	border-top: 2px solid #bb3073;
 }
 
-
+.border-color-light {
+	font-weight: 600;
+}
 
 .padding {
 	padding: 30px 30px 10px 30px;
