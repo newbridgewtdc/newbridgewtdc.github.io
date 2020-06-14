@@ -299,3 +299,10 @@ padding: 10px 5% 30px 5%;
 .card {
 	margin-bottom: 50px;
 }
+
+.carousel-caption {
+	background-color: #000;
+	opacity: 70%;
+	border-radius: 2px;
+	color: #fff;
+}
