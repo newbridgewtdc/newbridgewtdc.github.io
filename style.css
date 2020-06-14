@@ -304,5 +304,9 @@ padding: 10px 5% 30px 5%;
 	background-color: #000;
 	opacity: 70%;
 	border-radius: 2px;
+}
+
+.carousel-caption h5 {
 	color: #fff;
+	font-size: 1.25vw;
 }
