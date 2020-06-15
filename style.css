@@ -315,3 +315,7 @@ padding: 10px 5% 30px 5%;
 	color: #fff;
 	font-size: 1.25vw;
 }
+
+.aff-logos {
+	pointer-events: none;
+}
