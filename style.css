@@ -1,3 +1,7 @@
+.banner {
+	pointer-events: none;
+}
+
 .banner1, .banner2 {
 	display: none;
 }
@@ -117,6 +121,7 @@ nav {
 
 	.banner1, .banner2 {
 		display: block;
+		pointer-events: none;
 	}
 
 	.mega-menu .sub-menu-heading {
