@@ -88,15 +88,16 @@ nav {
 
 .mission-hero {
 	padding: 0;
-	margin: 7.5% 5% 5% 5%;
+	margin: 7.5% 5% 0% 5%;
 }
 
-.mission-head {
+.mission-head,.mission-btn {
 	font-size: 1.8vw;
 }
 
 .mission-p {
 	font-size: 1.25vw;
+	margin-bottom: 10%;
 }
 
 /* scaling for sm devices*/
@@ -126,7 +127,7 @@ nav {
 /* scaling for xs devices*/
 @media(max-width: 660px){
 
-	.mission-head {
+	.mission-head, .mission-btn{
 		font-size: 1.25rem;
 	}
 	
@@ -307,19 +308,35 @@ padding: 10px 5% 30px 5%;
 	width: 100%;
 	color: #fff;
 }
-.f67b14 {
-	background-color: #f67b14;
+.fg-f6b314 {
+	background-color: #f6b314;
 	text-align: justify;
-	padding: 30px;
+	padding: 2.75%;
 	width: 100%;
 	color: #fff;
+	margin: 1%;
 }
+
+.fg-f67b14 {
+	background-color: #f67b14;
+	text-align: justify;
+	padding: 2.75%;
+	width: 100%;
+	color: #fff;
+	margin: 1%;
+}
+
 .bg-474747 {
 	background-color: #474747;
 	text-align: justify;
 	padding: 30px;
 	width: 100%;
 	color: #fff;
+}
+.course-img{
+	display: flex;
+    align-items: center;
+	flex-wrap: wrap;
 }
 
 .card {
@@ -340,3 +357,4 @@ padding: 10px 5% 30px 5%;
 .aff-logos {
 	pointer-events: none;
 }
+
