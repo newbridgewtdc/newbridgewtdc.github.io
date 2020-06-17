@@ -11,6 +11,133 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 	<script src="https://kit.fontawesome.com/2d07d354f4.js" crossorigin="anonymous"></script>
+	<style>
+		.mission-btn {
+			-webkit-text-stroke: 0.5px #444444;
+		}
+		.mission-btn:hover {
+			-webkit-text-stroke: 0.5px #444444;
+			color: #444444;
+		}
+		.breathing-icona {
+			-webkit-text-stroke: 1px #fff;
+		font-size: 3.2vw;
+		margin-left: 15%;
+  	  -webkit-animation: breathing 2s ease-out infinite normal;
+	animation: breathing 2s ease-out infinite normal;
+	color: #F91D0A;
+    }
+	.breathing-iconb {
+		-webkit-text-stroke: 1px #fff;
+		font-size: 3.2vw;
+		margin-left: 15%;
+  	  -webkit-animation: breathing 2s ease-out 1s infinite normal;
+	animation: breathing 2s ease-out 1s infinite normal; 
+	color: #1C5EC5;
+    }
+
+
+
+@-webkit-keyframes breathing {
+	0% {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+  12.5% {
+    -webkit-transform: scale(0.85);
+    transform: scale(0.85);
+  }
+
+  25% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  37.5% {
+    -webkit-transform: scale(0.95);
+    transform: scale(0.95);
+  }
+
+  50% {
+	-webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  62.5% {
+    -webkit-transform: scale(0.95);
+    transform: scale(0.95);
+  }
+
+  75% {
+	-webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  87.5% {
+    -webkit-transform: scale(0.85);
+    transform: scale(0.85);
+  }
+  100% {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+}
+
+@keyframes breathing {
+  0% {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+  12.5% {
+    -webkit-transform: scale(0.85);
+    -ms-transform: scale(0.85);
+    transform: scale(0.85);
+  }
+
+  25% {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  37.5% {
+    -webkit-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+  }
+
+  50% {
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+    transform: scale(1);
+  }
+  62.5% {
+    -webkit-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+  }
+
+  75% {
+	-webkit-transform: scale(0.9);
+	-ms-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  87.5% {
+    -webkit-transform: scale(0.85);
+    -ms-transform: scale(0.85);
+    transform: scale(0.85);
+  }
+  100% {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+}
+
+@media(max-width: 660px){
+
+.breathing-icona, .breathing-iconb {
+	font-size: 2.5rem;
+}
+}
+	</style>
 </head>
 <body>
 	<div class="jumbotron-fluid">
@@ -153,8 +280,8 @@
 								 strives to create a caring, supportive and inclusive environment, 
 								 providing education and training opportunities and supporting the development of all involved in the centre.</em>
 							</p>
-							<a href="./prospectus.html" target="_blank" class="badge badge-pill fg-f6b314 text-center mission-btn">Our Prospectus<i class="fas fa-file-pdf pl-5"></i></a>
-							<a href="./application.html" target="_blank" class="badge badge-pill fg-f67b14 text-center mission-btn">Application Form<i class="fas fa-file-word pl-5"></i></a>
+							<a href="./prospectus.html" target="_blank" class="badge badge-pill fg-f6b314 text-center mission-btn">Our Prospectus<i class="fas fa-file-pdf breathing-icona"></i></a>
+							<a href="./application.html" target="_blank" class="badge badge-pill fg-f67b14 text-center mission-btn">Application Form<i class="fas fa-file-word breathing-iconb"></i></a>
 						</div>
 					</div>
 				</div>
