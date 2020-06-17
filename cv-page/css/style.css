@@ -10,7 +10,7 @@
 #title {
 	width: 100%;
 	height: 100vh;
-	background-color: rgb(209, 252, 19);
+	background-color: #eaff32;
 }
 
 #logo {
@@ -148,7 +148,7 @@
 		height: 0;
 	}
 }
-/* 
+ 
 #main {
 	color: black;
 	display: block;
@@ -158,7 +158,7 @@
 	animation: fade-in 2s ease forwards 10s;
 	overflow: hidden;
 }
- */
+ 
 
 @keyframes fade-in {
 	to {
