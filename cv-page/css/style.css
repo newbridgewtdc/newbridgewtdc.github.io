@@ -172,7 +172,7 @@
 /* TODO the navbar of the page*/
 .nav-link {
 	line-height: 1.5vw;
-	border-bottom: solid #222222 4px;
+	border-bottom: solid #222222 3.25px;
 	font-size: 1.5vw;
 	margin-top: 3vh;
 	margin-left: 5vw;
@@ -198,7 +198,7 @@ body {
 	position: absolute; 
 	width: 100%; 
 	transform: scaleX(0); 
-	height: 4px; 
+	height: 3.25px; 
 	top: 90%;
 	bottom: 0; 
 	left: 0; 
