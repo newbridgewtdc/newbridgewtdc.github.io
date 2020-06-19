@@ -171,9 +171,9 @@
 
 /* TODO the navbar of the page*/
 .nav-link {
-	line-height: 1.55vw;
+	line-height: 1.8vw;
 	border-bottom: solid #222222 3.25px;
-	font-size: 1.5vw;
+	font-size: 1.75vw;
 	margin-top: 3vh;
 	margin-left: 5vw;
 	margin-right: 5vw;
@@ -226,28 +226,36 @@ body {
   .icon-bar a {
 	display: block;
 	text-align: center;
-	padding: 10%;
+	padding: 5%;
 	transition: all 0.3s ease;
 	color: rgb(0, 0, 0);
-	font-size: 4vh;
+	font-size: 3.5rem;
   }
 
   /* Style the social media icons with color, if you want */
   .icon-bar a:hover {
 	-webkit-text-stroke: 1.5px  #222222;
-	color: #eaff32;;
+	color: #eaff32;
   }
 
+@media(max-width: 1020px){
+	.icon-bar a {
+		padding: 7%;
+		font-size: 4.25vw;
+	  }
+}
 
 
-
-
-@media(max-width: 660px){
+@media(max-width: 500px){
   .nav-link {
-	font-size: 0.8rem;
-	line-height: 0.8rem;
-	margin-top: 0.3vw;
-	margin-left: 0.3vw;
-	margin-right: 0.3vw;
+	font-size: 3.8vw;
+	line-height: 3.9vw;
+	margin-top: 0.25vw;
+	margin-left: 0.25vw;
+	margin-right: 0.25vw;
 	}
+	.icon-bar a {
+		padding: 7%;
+		font-size: 2.25rem;
+	  }
 }
