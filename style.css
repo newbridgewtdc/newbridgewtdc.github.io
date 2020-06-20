@@ -309,11 +309,6 @@ padding: 10px 5% 30px 5%;
 	width: 100%;
 	color: #fff;
 }
-.course-img{
-	display: flex;
-    align-items: center;
-	flex-wrap: wrap;
-}
 
 .card {
 	margin-bottom: 50px;
