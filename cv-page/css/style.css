@@ -215,15 +215,15 @@ body {
 /*  TODO Make icon-bar with correct color schemes */
 .icon-bar {
 	left: 2%;
-	top: 32vh;
-	height: 100vh;
+	top: 24vh;
+	height: 12rem;
 }
   
   /* Style the icon bar links */
 .icon-bar a {
 	display: block;
 	text-align: center;
-	padding: 5%;
+	padding: 3%;
 	transition: all 0.3s ease;
 	color: rgb(0, 0, 0);
 	font-size: 3.5rem;
@@ -232,7 +232,7 @@ body {
   /* Style the social media icons with color, if you want */
 .icon-bar a:hover {
 	-webkit-text-stroke: 1.3px  #111111;
-	color: #eaff32;
+	color: #eaff32 !important; 
 }
 /* *Hero css */
 #heroimg{
