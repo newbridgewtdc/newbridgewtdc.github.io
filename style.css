@@ -1,5 +1,6 @@
 *{
 	font-family: Helvetica;
+	
 }
 .banner {
 	pointer-events: none;
@@ -12,6 +13,9 @@
 	column-count: 4;
 }
 
+#enrty ul {
+	flex-direction: row;
+}
 /* Setting navbar color */
 nav {
 	background-color: #bb3073;
@@ -160,7 +164,9 @@ nav {
 	.card-columns {
 		column-count: 2;
 	}
-	
+	#enrty ul {
+		flex-direction: column;
+	}
 }
 
 
