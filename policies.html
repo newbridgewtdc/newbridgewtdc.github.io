@@ -13,6 +13,128 @@
 	<script src="https://kit.fontawesome.com/2d07d354f4.js" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 	<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+	<style>
+		.mission-btn:hover {
+			color: rgb(12, 4, 121);
+		}
+		.breathing-icona {
+			-webkit-text-stroke: 0.5px #fff;
+			font-size: 3vw;
+			margin-left: 15%;
+			color: #F91D0A;
+    	}
+		.breathing-iconb {
+			-webkit-text-stroke: 0.5px #fff;
+			font-size: 3vw;
+			margin-left: 15%;
+			color: #fff;
+		}
+
+
+		/*
+		@-webkit-keyframes breathing {
+			0% {
+			-webkit-transform: scale(0.8);
+			transform: scale(0.8);
+		}
+		12.5% {
+			-webkit-transform: scale(0.85);
+			transform: scale(0.85);
+		}
+
+		25% {
+			-webkit-transform: scale(0.9);
+			transform: scale(0.9);
+		}
+		37.5% {
+			-webkit-transform: scale(0.95);
+			transform: scale(0.95);
+		}
+
+		50% {
+			-webkit-transform: scale(1);
+			transform: scale(1);
+		}
+		62.5% {
+			-webkit-transform: scale(0.95);
+			transform: scale(0.95);
+		}
+
+		75% {
+			-webkit-transform: scale(0.9);
+			transform: scale(0.9);
+		}
+		87.5% {
+			-webkit-transform: scale(0.85);
+			transform: scale(0.85);
+		}
+		100% {
+			-webkit-transform: scale(0.8);
+			transform: scale(0.8);
+		}
+		}
+
+		@keyframes breathing {
+		0% {
+			-webkit-transform: scale(0.8);
+			-ms-transform: scale(0.8);
+			transform: scale(0.8);
+		}
+		12.5% {
+			-webkit-transform: scale(0.85);
+			-ms-transform: scale(0.85);
+			transform: scale(0.85);
+		}
+
+		25% {
+			-webkit-transform: scale(0.9);
+			-ms-transform: scale(0.9);
+			transform: scale(0.9);
+		}
+		37.5% {
+			-webkit-transform: scale(0.95);
+			-ms-transform: scale(0.95);
+			transform: scale(0.95);
+		}
+
+		50% {
+			-webkit-transform: scale(1);
+			-ms-transform: scale(1);
+			transform: scale(1);
+		}
+		62.5% {
+			-webkit-transform: scale(0.95);
+			-ms-transform: scale(0.95);
+			transform: scale(0.95);
+		}
+
+		75% {
+			-webkit-transform: scale(0.9);
+			-ms-transform: scale(0.9);
+			transform: scale(0.9);
+		}
+		87.5% {
+			-webkit-transform: scale(0.85);
+			-ms-transform: scale(0.85);
+			transform: scale(0.85);
+		}
+		100% {
+			-webkit-transform: scale(0.8);
+			-ms-transform: scale(0.8);
+			transform: scale(0.8);
+		}
+		}
+*/
+		@media(max-width: 660px) {
+			.breathing-icona, .breathing-iconb {
+				font-size: 2.5rem;
+			}
+		}
+
+		.carousel-item{
+			transition: transform 0.75s ease, opacity 0.5s ease-out
+		}
+	</style>
 </head>
 <body>
 	<div class="jumbotron-fluid">
@@ -124,7 +246,7 @@
                         <br>
                         <li>Mission Statement &nbsp;</li>
                         <p>Newbridge Youth Training and Development Centre under the direction of the Board of Management, strives to create a caring, supportive and inclusive environment, providing education and training opportunities and supporting the development of all the people involved in the centre.</p>
-                        <br>
+                        <br id="entry">
                         <li>Vision Statement</li>
                         <p>The promotion of personal, social and educational development in a holistic teaching and learning environment.</p>
                     </ol>
@@ -132,7 +254,7 @@
             </div>
         </div>
 	</div>
-	<div class="container-fluid" id="entry">
+	<div class="container-fluid">
         <div class="row justify-content-center">
 			<div class="col-md-10">
                 <h1 class="text-uppercase text-center">ENTRY REQUIREMENTS</h1>
@@ -146,8 +268,43 @@
 			</div>
 		</div>
 	</div>
-    <br>
-    <br>
+	<div class="container-fluid" id="app-form">
+		<div class="row justify-content-center">
+			<div class="col-md-7">
+				<h1 class="text-uppercase text-center">Application Form</h1>
+				<br>
+				<br>
+				<a href="./application.html" target="_blank" class="badge badge-pill bb3073 text-center mission-btn">View Form<i class="fas fa-file-word breathing-iconb"></i></a>				
+			</div>
+		</div>
+	</div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<div class="container-fluid padding f67b14">
+        <div class="row justify-content-center">
+			<div class="col-md-10">
+				<br>
+				<br>
+                <h1 class="text-uppercase text-center">ADMISSIONS</h1> 
+                <br>
+                <br>
+                <p><strong><span style="font-size:25px;line-height:107%;">Introductory Notes: &nbsp;&nbsp;</span></strong></p>
+                <p class="text-center"><strong><span class="mission-head">Motto : <em>&ldquo; Verum ad te semper&rdquo;</em> &ndash; Be true to yourself always</span></strong></p>
+                <p>&nbsp;</p>
+                <div>
+                    <ol style="list-style-type: decimal;" class="mission-p">
+                        <li>Newbridge Youth Training and Development Centre &nbsp;operates as a coeducational training centre under the auspice of Kildare Wicklow Educational Training and Board</li>
+                        <li>Vision Statement</li>
+                        <p>The promotion of personal, social and educational development in a holistic teaching and learning environment.</p>
+                    </ol>
+                </div>
+            </div>
+        </div>
+	</div>
     <footer class="page-footer gray padding">
         <br>
         <div class="container-fluid">
