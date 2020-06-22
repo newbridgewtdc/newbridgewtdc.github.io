@@ -13,7 +13,7 @@
 	column-count: 4;
 }
 
-#enrty ul {
+.enrty-ul {
 	flex-direction: row;
 }
 /* Setting navbar color */
@@ -164,7 +164,7 @@ nav {
 	.card-columns {
 		column-count: 2;
 	}
-	#enrty ul {
+	.enrty-ul {
 		flex-direction: column;
 	}
 }
