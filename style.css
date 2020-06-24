@@ -19,7 +19,7 @@
 /* Setting navbar color */
 nav {
 	/* background-color: #bb3073; */
-	background-color: #73394F;
+	background-color: #833C5A;/* #73394F;*/
 }
 
 .nav-item {
@@ -79,7 +79,7 @@ nav {
 
 /* reaction to hover on p in mega-menu*/
 .mega-menu p:hover, .single-menu p:hover {
-	background-color:#73394F;/* #bb3073; *//*#fabf34*/
+	background-color:#833C5A;/*#73394F;/* #bb3073; *//*#fabf34*/
 	line-height: 40px;
 }
 
@@ -203,7 +203,7 @@ nav {
 /* changing color of hover to be pink*/
 .btn-outline-warning:hover {
 	/* color: #bb3073; */
-	color: #73394F;
+	color: #833C5A;
 	
 }
  /* Set the size of the div element that contains the map */
@@ -222,7 +222,7 @@ nav {
 
 footer {
 	color: #fff;
-	border-top: 3px solid #73394F;/* #bb3073;*/
+	border-top: 3px solid #833C5A;/* #bb3073;*/
 }
 
 .border-color-light {
@@ -239,7 +239,7 @@ footer {
 }
  .social:hover {
 	 /* color: #d73e88; */
-	 color:#73394F;
+	 color:#833C5A;
  }
 
 .footer-socials, .footer-contacts{
@@ -259,7 +259,7 @@ padding: 10px 5% 30px 5%;
 
 .arrows:hover {
 	/* color: #bb3073; */
-	color: #73394F;
+	color: #833C5A;
 }
  
 .card-header {
@@ -298,7 +298,7 @@ padding: 10px 5% 30px 5%;
 	color: #fff;
 }
 .bb3073 {
-	background-color: #73394F;/* #bb3073;*/
+	background-color: #833C5A;/* #bb3073;*/
 	text-align: justify;
 	padding: 30px;
 	width: 100%;
