@@ -30,7 +30,8 @@ nav {
 /* Admissions dropdown*/
 .single-menu {
 	width: 400px;
-	background-color: #474747;
+	/* background-color: #474747; */
+	background-color: #3D3C3A;
 	padding: 10px 10px 0px 10px;
 }
 
@@ -55,7 +56,8 @@ nav {
 	width: 800px;
 	overflow-y: visible;
 	padding: 10px 10px 10px 10px;
-	background-color: #474747;
+	/* background-color: #474747; */
+	background-color: #3D3C3A;
 }
 
 /* links within the mega menu*/
@@ -192,7 +194,8 @@ nav {
 
 /* changing color of the footer*/
 .bg-4 {
-  background-color: #474747;
+  /* background-color: #474747; */
+  background-color: #3D3C3A;
   color: #ffffff;
 }
 
@@ -293,8 +296,8 @@ padding: 10px 5% 30px 5%;
 	width: 100%;
 	color: #fff;
 }
-.bb3073 {
-	background-color: #1C5EC5;;
+.fg-blue {
+	background-color: #1C5EC5;
 	text-align: justify;
 	padding: 30px;
 	width: 100%;
@@ -320,7 +323,8 @@ padding: 10px 5% 30px 5%;
 }
 
 .bg-474747 {
-	background-color: #474747;
+	background-color: #3D3C3A;
+	/* background-color: #474747; */
 	text-align: justify;
 	padding: 30px;
 	width: 100%;
