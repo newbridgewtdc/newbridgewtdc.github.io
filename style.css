@@ -329,6 +329,7 @@ padding: 10px 5% 30px 5%;
 
 .img-f67b14{
 	background-image: url(./images/background-add.jpg);
+	background-size: cover;
 	width: 100%;
 	color: #fff;
 }
