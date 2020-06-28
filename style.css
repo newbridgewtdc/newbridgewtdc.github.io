@@ -56,7 +56,7 @@ nav {
 .mega-menu {
 	width: 800px;
 	overflow-y: visible;
-	padding: 10px 10px 10px 10px;
+	padding: 10px 10px 0px 10px;
 	/* background-color: #474747; */
 	background-color: #3D3C3A;
 }
@@ -90,7 +90,7 @@ nav {
 
 /* subheadings*/
 .mega-menu .sub-menu-heading {
-	padding: 10px 0 10px 0;
+	padding: 0;
 	color: #d6d6d6;
 	width: 140px;
 	height: 100px;
@@ -118,11 +118,11 @@ nav {
 		padding-left: 10px;
 	
 	}
-	.single-menu a {
+	.single-menu a, .mega-menu a {
 		font-size: 12pt;
 	}
 	.mega-menu .sub-menu-heading {
-		padding: 10px 0 10px 0;
+		padding: 0;
 		width: 100%;
 		height: 75px;
 	}
@@ -157,7 +157,7 @@ nav {
 	}
 
 	.mega-menu .sub-menu-heading {
-		padding: 10px 0 10px 0;
+		padding: 0;
 		width: 100%;
 		height: 50px;
 	}
