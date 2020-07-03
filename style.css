@@ -18,7 +18,7 @@
 }
 /* Setting navbar color */
 nav {
-	background-color: #bb3073;
+	background-color: #d60f6f;
 }
 
 .nav-item {
@@ -76,7 +76,7 @@ nav {
 
 /* reaction to hover on p in mega-menu*/
 .mega-menu p:hover, .single-menu p:hover {
-	background-color: #bb3073;
+	background-color: #d60f6f;
 	line-height: 40px;
 }
 
@@ -198,7 +198,7 @@ nav {
 
 /* changing color of hover to be pink*/
 .btn-outline-warning:hover {
-	color: #bb3073;
+	color: #d60f6f;
 	
 }
  /* Set the size of the div element that contains the map */
@@ -216,7 +216,7 @@ nav {
 
 footer {
 	color: #fff;
-	border-top: 3px solid #bb3073;
+	border-top: 3px solid #d60f6f;
 }
 
 .border-color-light {
@@ -251,7 +251,7 @@ padding: 10px 5% 30px 5%;
 }
 
 .arrows:hover {
-	color: #bb3073;
+	color: #d60f6f;
 }
  
 .card-header {
@@ -288,7 +288,7 @@ padding: 10px 5% 30px 5%;
 	color: #fff;
 }
 .bb3073 {
-	background-color: #bb3073;
+	background-color: #d60f6f;
 	text-align: justify;
 	padding: 30px;
 	width: 100%;
