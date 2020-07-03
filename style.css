@@ -18,7 +18,8 @@
 }
 /* Setting navbar color */
 nav {
-	background-color: #d60f6f;
+	background-color: #990635;
+	/* background-color: #ba0d61; */
 }
 
 .nav-item {
@@ -30,7 +31,7 @@ nav {
 /* Admissions dropdown*/
 .single-menu {
 	width: 400px;
-	background-color: #3D3C3A;
+	background-color: #222120;
 	padding: 10px 10px 0px 10px;
 }
 
@@ -55,7 +56,7 @@ nav {
 	width: 800px;
 	overflow-y: visible;
 	padding: 10px 10px 0px 10px;
-	background-color: #3D3C3A;
+	background-color: #222120;
 }
 
 /* links within the mega menu*/
@@ -76,7 +77,8 @@ nav {
 
 /* reaction to hover on p in mega-menu*/
 .mega-menu p:hover, .single-menu p:hover {
-	background-color: #d60f6f;
+	/* background-color: #ba0d61; */
+	background-color: #990635;
 	line-height: 40px;
 }
 
@@ -192,13 +194,14 @@ nav {
 
 /* changing color of the footer*/
 .bg-4 {
-  background-color: #3D3C3A;
+  background-color: #222120;
   color: #ffffff;
 }
 
 /* changing color of hover to be pink*/
 .btn-outline-warning:hover {
-	color: #d60f6f;
+	color: #990635;
+	/* color: #ba0d61; */
 	
 }
  /* Set the size of the div element that contains the map */
@@ -211,12 +214,12 @@ nav {
 }
 
 .gray {
-	background-color: #3D3C3A;
+	background-color: #222120;
 }
 
 footer {
 	color: #fff;
-	border-top: 3px solid #d60f6f;
+	border-top: 3px solid #990635;
 }
 
 .border-color-light {
@@ -232,7 +235,7 @@ footer {
 	color: #fff;
 }
  .social:hover {
-	 color: #d73e88;
+	color: #990635;
  }
 
 .footer-socials, .footer-contacts{
@@ -251,7 +254,8 @@ padding: 10px 5% 30px 5%;
 }
 
 .arrows:hover {
-	color: #d60f6f;
+	/* color: #ba0d61; */
+	color: #990635;
 }
  
 .card-header {
@@ -265,7 +269,7 @@ padding: 10px 5% 30px 5%;
 }
 
 .f67b14 {
-	background-color: #f67b14;
+	background-color: #FC6805;
 	text-align: justify;
 	padding: 30px;
 	width: 100%;
@@ -273,7 +277,7 @@ padding: 10px 5% 30px 5%;
 }
 
 .f6b314 {
-	background-color: #f6b314;
+	background-color: #F6BD14;
 	text-align: justify;
 	padding: 30px;
 	width: 100%;
@@ -281,14 +285,14 @@ padding: 10px 5% 30px 5%;
 }
 
 .bg-830f34 {
-	background-color: #830f34;
+	background-color: #990635;
 	text-align: justify;
 	padding: 30px;
 	width: 100%;
 	color: #fff;
 }
 .bb3073 {
-	background-color: #d60f6f;
+	background-color: #ba0d61;
 	text-align: justify;
 	padding: 30px;
 	width: 100%;
@@ -303,7 +307,7 @@ padding: 10px 5% 30px 5%;
 }
 
 .fg-f6b314 {
-	background-color: #f6b314;
+	background-color: #F6BD14;
 	text-align: justify;
 	padding: 2.75%;
 	width: 100%;
@@ -312,7 +316,7 @@ padding: 10px 5% 30px 5%;
 }
 
 .fg-f67b14 {
-	background-color: #f67b14;
+	background-color: #FC6805;
 	text-align: justify;
 	padding: 2.75%;
 	width: 100%;
@@ -321,7 +325,7 @@ padding: 10px 5% 30px 5%;
 }
 
 .bg-474747 {
-	background-color: #3D3C3A;
+	background-color: #222120;
 	text-align: justify;
 	padding: 30px;
 	width: 100%;
