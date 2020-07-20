@@ -112,6 +112,15 @@ nav {
 /* scaling for sm devices*/
 @media(max-width: 1020px){
 
+	.course-img {
+		width: 100%;
+	}
+	.course-img img {
+		width: 100%;
+		
+	height: auto;
+	}
+	
 	.nav-item {
 		font-size: 12pt;
 		padding-left: 10px;
@@ -131,6 +140,13 @@ nav {
 	}
 	.card-columns {
 		column-count: 3;
+	}
+}
+@media(max-width: 1280px){
+	.course-img img {
+		width: 50%;
+		
+	height: auto;
 	}
 }
 /* scaling for xs devices*/
@@ -359,3 +375,10 @@ padding: 10px 5% 30px 5%;
 	pointer-events: none;
 }
 
+.course-img {
+	max-width: 100%;  
+}
+.course-img img {
+	width: 100%;
+	height: auto;
+}
